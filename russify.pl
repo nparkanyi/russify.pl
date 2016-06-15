@@ -151,6 +151,8 @@ while (my $line = <STDIN>){
       print "ъ";
     } elsif ($_ eq " "){
       print " ";
+    } elsif ($_ eq "."){
+      print ".";
     }
 
     $prev = $_;
